@@ -11,8 +11,8 @@ CLASSES = ['Atelectasis', 'Consolidation', 'Infiltration', 'Pneumothorax', 'Edem
            'Emphysema', 'Fibrosis', 'Effusion', 'Pneumonia', 'Pleural_Thickening',
            'Cardiomegaly', 'Nodule', 'Mass', 'Hernia']
 
-st.set_page_config(page_title="Chest X-ray Classification", page_icon="🫁")
-st.title("🫁 Chest X-ray Multi-Classification")
+st.set_page_config(page_title="Pulmonary AI Diagnosis", page_icon="🫁")
+st.title("Pulmonary AI Diagnosis")
 
 MODELS_DIR = Path("models")
 WEIGHTS_PATH = MODELS_DIR / "chest_xray_model.h5"

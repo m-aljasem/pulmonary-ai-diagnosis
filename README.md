@@ -84,7 +84,7 @@ pip install -r requirements-dev.txt
 ### 1️⃣ Train the Model
 
 ```bash
-cd chest-xray
+cd pulmonary-ai-diagnosis
 python src/train.py
 ```
 
@@ -97,7 +97,7 @@ models/chest_xray_model.h5
 ### 2️⃣ Run the Streamlit App
 
 ```bash
-cd chest-xray
+cd pulmonary-ai-diagnosis
 streamlit run app.py
 ```
 
@@ -141,7 +141,7 @@ detected = [(cls, p) for cls, p in zip(CLASSES, pred) if p > 0.5]
 ## 🗂 Project Structure
 
 ```text
-chest-xray/
+pulmonary-ai-diagnosis/
 ├── app.py                    # Streamlit app
 ├── config/
 ├── data/                     # NIH ChestX-ray14 CSV + images
