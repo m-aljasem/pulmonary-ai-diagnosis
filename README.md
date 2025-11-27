@@ -36,7 +36,7 @@ Deep learning system for **multi-label detection** of 14 thoracic conditions fro
 
 ## 🎯 Overview
 
-This project provides a **multi-label classifier** for chest X‑rays based on the **NIH ChestX-ray14** dataset.  
+This project provides a **multi-label classifier** for chest X‑rays using the **NIH ChestX-ray14** dataset.  
 Given a single X‑ray, the model outputs probabilities for up to **14 different pathologies**.
 
 The project includes:
